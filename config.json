@@ -1,0 +1,13 @@
+{
+    "path":{
+        "traningFile": "/home/huyphat/Desktop/Source/data_assistants.csv"
+    },
+    "mqtt":{
+        "host": "m16.cloudmqtt.com",
+        "port": 10823,
+        "keepalive": 60,
+        "username": "qozkcyle",
+        "password": "2cL7j6TDnqrF"
+    },
+    "port": 5000
+}
