@@ -3,8 +3,8 @@ from model.svm_model import SVMModel
 import csv
 import joblib
 
-path_file_input = 'models/ai_model/data_assistants.csv'
-path_file_output = 'models/ai_model/model.pkl'
+path_file_input = 'data_assistants.csv'
+path_file_output = 'model.pkl'
 
 def train_data():
     train_data = []
