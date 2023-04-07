@@ -1,5 +1,5 @@
 import pandas as pd
-from models.ai_model.svm_model import SVMModel
+from model.svm_model import SVMModel
 import csv
 import joblib
 
