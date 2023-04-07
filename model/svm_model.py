@@ -27,3 +27,9 @@ class SVMModel(object):
         ])
 
         return pipe_line
+    
+    def fit(self, X, y):
+        self.clf.fit(X, y)
+
+    def predict(self, X):
+        return self.clf.predict(X)
